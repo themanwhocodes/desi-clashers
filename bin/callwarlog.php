@@ -3,12 +3,12 @@
 require_once(__DIR__.'/../vendor/autoload.php');
 require_once(__DIR__.'/ClashAPI/API.class.php');
 
-date_default_timezone_set('Europe/Berlin');
+date_default_timezone_set('Asia/Kolkata');
 
 $redis = new Predis\Client(getenv('REDIS_URL'));
 
 
-$wl = new CoC_Warlog("#QVQRYYG");
+$wl = new CoC_Warlog("#8PJYV9RC");
 
 
 $logcount = 1;
