@@ -3,7 +3,7 @@
 require_once(__DIR__.'/../vendor/autoload.php');
 require_once(__DIR__.'/ClashAPI/API.class.php');
 
-date_default_timezone_set('Europe/Berlin');
+date_default_timezone_set('Asia/Kolkata');
 
 $redis = new Predis\Client(getenv('REDIS_URL'));
 
@@ -16,7 +16,7 @@ else {
 
 $timestamp = date("d.m.Y - H:i");
 
-$clan = new CoC_Clan("#QVQRYYG");
+$clan = new CoC_Clan("#8PJYV9RC");
 
 $tottroph = 0;
 $totlvl = 0;
